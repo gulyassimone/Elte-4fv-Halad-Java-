@@ -24,7 +24,7 @@ public class BioStatUtilTest {
     inputStream = resource.openStream();
   }
 
-  @Test
+ 
   @ParameterizedTest(name = "age = {0}, count = {1}")
   @CsvSource({
           "40, 4",
@@ -40,7 +40,7 @@ public class BioStatUtilTest {
   }
 
 
-  @Test
+
   @ParameterizedTest(name = "gender = {0}")
   @ValueSource(strings = {"M","F"})
   public void testAverageHeight(String gender) throws IOException {
