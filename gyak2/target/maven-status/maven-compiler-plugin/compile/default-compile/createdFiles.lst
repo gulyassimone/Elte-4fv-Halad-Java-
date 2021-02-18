@@ -1,0 +1,7 @@
+hu\elte\haladojava\util\BioStatUtil.class
+hu\elte\haladojava\services\DatabaseImpl.class
+hu\elte\haladojava\services\StatisticsService.class
+hu\elte\haladojava\services\Database.class
+hu\elte\haladojava\services\Person.class
+hu\elte\haladojava\util\BioStatUtil$Person.class
+hu\elte\haladojava\util\BioStatUtil$Gender.class
