@@ -24,7 +24,7 @@ public class BioStatUtilTest {
     inputStream = resource.openStream();
   }
 
- 
+
   @ParameterizedTest(name = "age = {0}, count = {1}")
   @CsvSource({
           "40, 4",
