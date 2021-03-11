@@ -21,7 +21,7 @@ public class LambdaExamples {
 
     private static void function() {
         // TODO: replace it with lambda or method reference
-        Function<String, Integer> lengthOfString = (string)-> string.length();
+        Function<String, Integer> lengthOfString = String::length;
         System.out.println("length of 'alma': " + lengthOfString.apply("alma"));
     }
 
